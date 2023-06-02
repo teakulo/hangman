@@ -1,0 +1,22 @@
+/* CSS HEX
+ palette:
+--electric-purple: #c200fbff;
+--periwinkle: #ccd5ffff;
+--light-yellow: #fffbdbff;
+--penn-blue: #0a1045ff;
+--tangelo: #fb5012ff;
+*/
+
+
+.mistakes-count {
+  font-size: 50%;
+  text-align: center;
+  color: #FFFBDB;
+}
+svg {
+  /* Omitting overflow-clip-margin and overflow properties which allow entire svg to be displayed properly */
+  overflow-clip-margin: initial;
+  overflow: initial;
+  height: 100%;
+  width: 100%;
+}

@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* CSS HEX
+ palette:
+--electric-purple: #c200fbff;
+--periwinkle: #ccd5ffff;
+--light-yellow: #fffbdbff;
+--penn-blue: #0a1045ff;
+--tangelo: #fb5012ff;
+*/
+
+html,body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Caveat', cursive;
+}
+
+body{
+  font-weight: 400;
+  font-size: 50px;
+  color: #FFFBDB;
+  background-color:#CCD5FF ;
+  margin: 5%;
+  padding: 0;
+  box-sizing: border-box;
+}

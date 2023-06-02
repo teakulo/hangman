@@ -1,0 +1,55 @@
+/* CSS HEX
+ palette:
+--electric-purple: #c200fbff;
+--periwinkle: #ccd5ffff;
+--light-yellow: #fffbdbff;
+--penn-blue: #0a1045ff;
+--tangelo: #fb5012ff;
+*/
+body{
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFBDB;
+  background-color:#CCD5FF ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 8px 10px;
+}
+p {
+  margin: 0;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #CCD5FF;
+  color: #0A1045;
+  font-weight: 600;
+  font-size: larger;
+}
+
+footer {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .header {
+    height: 56px;
+  }
+}
