@@ -1,0 +1,30 @@
+.characters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 2px;
+  background-color: #0a1045ff;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.character-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.character-name span {
+  visibility: hidden;
+}
