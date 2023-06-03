@@ -1,14 +1,12 @@
 <header>
   <div class="he">
     <h1>Hangman</h1>
-    <h3>Good Luck!</h3>
   </div>
 
   <div class="mistakes-count">
-    Mistakes Remaining : {{ mistakesRemaining }}
+    Attempts remaining: {{ mistakesRemaining }}
   </div>
 </header>
-
 
 
 <svg id="base" [style.display]="!success && mistakesRemaining === 7 && guesses.length >= 0 ? 'block' : 'none'">

@@ -7,7 +7,10 @@
 --tangelo: #fb5012ff;
 */
 
-
+body{
+  margin: 0 0;
+  padding: 0 0;
+}
 .mistakes-count {
   font-size: 50%;
   text-align: center;
@@ -17,20 +20,35 @@ svg {
   /* Omitting overflow-clip-margin and overflow properties which allow entire svg to be displayed properly */
   overflow-clip-margin: initial;
   overflow: initial;
-  height: 100%;
-  width: 100%;
-  margin-bottom: 11%;
+  height: 150%;
+  width: 150%;
+  margin-bottom: 53%;
   padding-left: 15%;
+  margin-top: -20%;
 }
 header{
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 170%;
+  height: min-content;
+  margin-top: -20%;
 }
 h1 {
-  font-size: 32px;
+  font-size: 50px;
 }
-h2 {
-  font-size: 24px;
+
+.he {
+  flex-grow: 1;
 }
-h3 {
-  font-size: 20px;
+
+.mistakes-count {
+  margin-left: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  header {
+    display: contents;
+  }
 }
