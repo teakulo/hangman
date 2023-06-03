@@ -16,8 +16,10 @@ body{
   box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
-  margin: 8px 10px;
+  margin: 0;
+  font-weight: 100;
 }
+
 p {
   margin: 0;
 }
@@ -30,9 +32,8 @@ p {
   display: flex;
   align-items: center;
   background-color: #CCD5FF;
-  color: #0A1045;
   font-weight: 600;
-  font-size: larger;
+  font-size: 20px;
 }
 
 footer {
