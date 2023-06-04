@@ -7,6 +7,8 @@ import { HangmanComponent } from './components/hangman/hangman.component';
 import { HangmanQuestionComponent } from './components/hangman-question/hangman-question.component';
 import {HttpClientModule} from "@angular/common/http";
 import {CommonModule} from "@angular/common";
+import {RouterModule} from "@angular/router";
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import {CommonModule} from "@angular/common";
   imports: [
     BrowserModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+    RouterModule.forRoot([]),
   ],
   providers: [],
   bootstrap: [AppComponent]

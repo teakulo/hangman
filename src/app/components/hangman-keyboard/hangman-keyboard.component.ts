@@ -34,25 +34,22 @@ export class HangmanKeyboardComponent implements OnChanges {
   }
 
   addMissingKeys(): void {
+    // Iterate over each character in the 'question' string
     for (let i = 0; i < this.question.length; i++) {
+      // Check if a key with the current character exists in the 'keys' array
       const keyExists = this.keys.find((key) => {
         return key.value.toLowerCase() === this.question[i].toLowerCase();
       });
-      if (keyExists) {
-        continue;
-      }
+      // If the key already exists, continue to the next iteration
+      if (keyExists) continue;
+      // Generate a random index within the 'keys' array
       const randomIndex = Math.floor(Math.random() * 11);
-      this.keys.splice(randomIndex, 0, {
-        value: this.question[i],
-        guessed: false,
-      });
+      // Insert a new key at the randomly generated index
+      this.keys.splice(randomIndex, 0, {value: this.question[i], guessed: false,});
     }
   }
-
   onKeyClick(key: IKey): void {
-    if (key.guessed) {
-      return;
-    }
+    if (key.guessed) return;
     key.guessed = true;
     this.keyPressed.emit(key.value);
   }

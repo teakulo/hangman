@@ -38,11 +38,6 @@ export class HangmanComponent implements OnInit {
     this.guesses = [...this.guesses, letter];
   }
 
-  dummyClick() {
-    const key = prompt('Enter a key') || '';
-    this.guess(key);
-  }
-
   reset() {
     this.guesses = [];
     this.pickNewQuestion();

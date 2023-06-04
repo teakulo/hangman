@@ -4,3 +4,38 @@
   flex-direction: column;
   align-items: center;
 }
+.btn {
+  background-color: #ccd5ffff;
+  color: #c200fbff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #fb5012ff;
+  border-radius: 20px;
+  outline: none;
+  position: relative;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px solid #fb5012ff;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+.btn:hover {
+  background-color: #fffbdbff;
+  color: #0a1045ff;
+}
+
+.btn:focus {
+  outline: none;
+}
+h5{
+  margin-top: auto;
+}

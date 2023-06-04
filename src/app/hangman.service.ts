@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-const defaultJSONPath = 'assets/hwords.json';
+const defaultJSONPath = 'assets/words/hwords.json';
 
 @Injectable({
   providedIn: 'root',
