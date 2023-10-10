@@ -1,7 +1,8 @@
 # Hangman App
 
+Open here: https://myhangman02.netlify.app/
 This Hangman app is a fun and interactive game where the player tries to guess a hidden word by suggesting letters within a certain number of attempts.
-The app is deployed on Netlify.
+The app is deployed on Netlify-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/97b3ac66-9399-4ac9-aa66-96b455fa3902/deploy-status)](https://app.netlify.com/sites/myhangman02/deploys)
 
 ## Features
